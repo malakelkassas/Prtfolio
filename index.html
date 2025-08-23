@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <title>Malak Elkassas | Front-End Developer</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="my-navbar">
+      <ul class="navbar-links">
+        <li><a class="active" href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- home -->
+    <section id="Home">
+      <div class="profile-img">
+        <img src="./img/IMG-20250416-WA0052.jpg" alt="My Photo" id="myImg">
+      </div>
+      <div class="text">
+        <b><p><div class="Malak">"Hi, I’m </div>Front-End Developer with <br>
+            experience in Python & AI"</p></b>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="About">
+      <h1 class="about">About Me</h1>
+      <div class="cards-container">
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-regular fa-user fa-2xl" style="color: #0010f5;"></i>
+            <h6 class="card-subtitle">Personal Info</h6>
+            <label>
+              <ul>
+                <li>Age: 16</li> <br>
+                <li>City: Cairo</li> <br>
+                <li>Field: Front-End Development</li> <br>
+                <li>School: Al-Haramain School</li> <br>
+              </ul>
+            </label>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <i class="fa-solid fa-laptop-code fa-2xl"
+              style="color: #005eff;"></i>
+            <h6 class="card-subtitle">Ambition</h6>
+            <label>
+              <ul>
+                <li>My ambition is to become a professional Front-End
+                  Developer.</li>
+                <li>I aim to improve my skills in Python and Artificial
+                  Intelligence.</li>
+                <li>I want to combine creativity and technology to build useful,
+                  modern websites.</li>
+                <li>My goal is to keep learning and growing to achieve success
+                  in my career.</li>
+              </ul>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skills -->
+    <section class="skills section" id="Skills">
+      <h1 class="Skills">My Skills</h1>
+      <div class="skills-container"> <div class="skill-card">
+          HTML
+        </div>
+        <div class="skill-card">
+          CSS
+        </div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">Python</div> <div class="skill-card">AI</div>
+        <div class="skill-card">Git/GitHub</div> </div>
+    </section>
+    <!-- projects -->
+    <section id="Projects" class="projects-section">
+      <h1 class="project">My Projects</h1>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="./img/student.png" alt="Student Registration">
+          <h3>Student Registration</h3>
+
+          <p>A simple student registration system with form validation using
+            HTML,CSS, and JavaScript.</p>
+          <a href="https://malakelkassas.github.io/Student-Registration/"
+            target="_blank" class="btn">View Project</a>
+
+        </div>
+        <div class="project-card">
+          <img src="./img/Screenshot 2025-08-20 222121.png"
+            alt="TechNova Website">
+          <h3>TechNova Website</h3>
+          <p>A modern landing page for a tech company built with HTML, CSS.</p>
+          <a href="https://malakelkassas.github.io/TechNova/" target="_blank"
+            class="btn">View Project</a>
+
+        </div> <div class="project-card">
+          <img src="./img/codexus.png" alt="Codexus Web">
+          <h3>Codexus Web</h3>
+          <p>Aprofessional company website I designed and developed for Codexus
+            using HTML, CSS.</p>
+
+          <a href="https://malakelkassas.github.io/Codexus/" target="_blank"
+            class="btn">View Project</a>
+
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="Contact" class="contact-section">
+      <h1 class="contact">Contact Me</h1>
+      <p>If you’d like to work with me or have any questions, feel free to reach
+        out 👇</p>
+      <form id="contact-form" class="contact-form"
+        action="https://formspree.io/f/manbgvdg" method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message"
+          required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <!-- مكان الرسالة -->
+      <div id="form-message"></div>
+      <div class="social-links">
+        <a href="mailto:elkassasmalak24@gmail.com" target="_blank"> <i
+            class="fas fa-envelope"></i>elkassasmalak24@gmail.com </a>
+
+        <a href="tel:+201023203853"> <i class="fas fa-phone"></i> +20 102 320
+          3853 </a>
+        <a href="https://github.com/malakelkassas" target="_blank"> <i
+            class="fab fa-github"></i> GitHub </a>
+
+        <a href="https://www.linkedin.com/" target="_blank"> <i
+            class="fab fa-linkedin"></i> LinkedIn </a>
+
+      </div>
+    </section>
+    <script src="./js/style.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
